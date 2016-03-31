@@ -27,6 +27,10 @@ public class Worker {
 	
 	public void SortOfficeUnitsByPrice() {
 		officeUnits.sort(new SortedByPrice());
+	}
+	
+	public void SortOfficeUnitsByPriceName() {
+		officeUnits.sort(new SortedByPriceName());		
 	}	
 
 	public void addOfficeUnit(OfficeUnit item) {
